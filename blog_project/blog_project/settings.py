@@ -127,8 +127,8 @@ STATICFILES_DIRS = [BASE_DIR / 'static']
 #smtp mail Configuration
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'onlykingrawal@gmail.com'
-EMAIL_HOST_PASSWORD = 'Admin@123'
+EMAIL_HOST_USER = 'email'
+EMAIL_HOST_PASSWORD = 'password'
 EMAIL_USE_TLS = True # transport layer security
 #send_mail("subject" , "mail_content" , sender info , receiver )
 #https://myaccount.google.com/u/2/lesssecureapps?pli=1 on
